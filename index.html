@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      s
+    />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <title>Cu Chi Travel</title>
+  </head>
+  <body>
+    <div class="container-fluid body__background">
+      <!-- header -->
+      <div class="container">
+        <header class="header">
+          <nav class="navbar navbar-expand-lg bg-light header__navbar sticky-top">
+            <div class="container">
+              <a class="navbar-brand header__link" href="#">
+                <img class="header__logo" src="./images/logo.jpg" alt="home" />
+              </a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse header__menu" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item menu__item">
+                    <a class="nav-link active menu__link" aria-current="page" href="./index.html"
+                      >Trang chủ</a
+                    >
+                  </li>
+                  <li class="nav-item menu__item">
+                    <a class="nav-link menu__link" aria-current="page" href="./about.html"
+                      >Giới thiệu</a
+                    >
+                  </li>
+                  <li class="nav-item menu__item">
+                    <a class="nav-link menu__link" aria-current="page" href="./places.html"
+                      >Địa Điểm</a
+                    >
+                  </li>
+                  <li class="nav-item menu__item">
+                    <a class="nav-link menu__link" href="./blog.html" aria-current="page" href="#">
+                      Blog
+                    </a>
+                  </li>
+                  <li class="nav-item menu__item">
+                    <a class="nav-link menu__link" aria-current="page" href="./contact.html"
+                      >Liên hệ</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="header__social"></div>
+              <form class="d-none" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide header__slider"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div data-bs-interval="2000" class="carousel-item slide-item active">
+                <img
+                  src="./images/slider_003.jpg"
+                  class="d-block w-100 slide__img"
+                  alt="Slider_01"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div data-bs-interval="2000" class="carousel-item slide-item">
+                <img
+                  src="./images/slider_002.jpg"
+                  class="d-block w-100 slide__img"
+                  alt="slider_002"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div data-bs-interval="2000" class="carousel-item slide-item">
+                <img
+                  src="./images/slider_001.jpg"
+                  class="d-block w-100 slide__img"
+                  alt="slider_003"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </header>
+      </div>
+      <!-- Body -->
+      <div class="container">
+        <div class="body">
+          <div class="popular_place" id="popular_place">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <div class="text-center mb_70 place__title">
+                  <h3>Địa điểm nổi tiếng</h3>
+                  <p>
+                    Nếu có dịp ghé thăm thành phố Hồ Chí Minh đừng quên ghé thăm những địa điểm này
+                    nhé !
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 1 -->
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/benthanh.jpg" alt="" />
+
+                    <div class="content">
+                      <p class="align-items-center content__item">Chợ Bến Thành <a href="#"></a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/diadaocuchi.jpg" alt="" />
+                    <div class="content">
+                      <p class="d-none align-items-center content__item">
+                        Địa Đạo Củ Chi <a href="#"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/dinhdoclap.jpg" alt="" />
+                    <div class="content">
+                      <p class="d-none align-items-center content__item">
+                        Dinh Độc Lập <a href="#"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row 2 -->
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/ducba.jpg" alt="" />
+                    <div class="content">
+                      <p class="d-none align-items-center content__item">
+                        Nhà Thờ Đức Bà <a href="#"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/pho-di-bo.jpg" alt="" />
+                    <div class="content">
+                      <p class="d-none align-items-center content__item">
+                        Phố đi bộ Nguyễn Huệ <a href="#"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/can-gio.jpg" alt="" />
+                    <div class="content">
+                      <p class="d-none align-items-center content__item">
+                        Biển Cần Giờ <a href="#"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video_area video_bg overlay video_wrap">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="text-center">
+                    <img class="w-100 video__img" src="./images/video-bg.jpg" alt="" />
+                    <div class="video__button">
+                      <div class="video_icon_wrap">
+                        <a
+                          target="_blank"
+                          class="popup-video video_play_button"
+                          href="https://www.youtube.com/watch?v=o4mxr0DnIQE"
+                        >
+                          <i class="video_icon fa-solid fa-play"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular_dishes" id="popular_dishes">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <div class="text-center mb_70 place__title">
+                  <h3>Các địa điểm ăn uống</h3>
+                  <p>
+                    Ngoài các điểm vui chơi giải trí các bạn đừng quên ghé thăm những quán ăn làm
+                    nên tên tuổi của Sài Gòn nhé !
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Row 1 -->
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/dish_01.jpg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="d-none align-items-center content__item">
+                      Ốc Như quận 10 <a href="#"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/dish_02.jpg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="d-none align-items-center content__item">
+                      Bánh mì Hòa mã <a href="#"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/dish_03.webp" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="d-none align-items-center content__item">
+                      Bánh Xèo Bà Hai <a href="#"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/dish_04.jpeg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="d-none align-items-center content__item">
+                      Hủ tiếu Ba Đạt <a href="#"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/dish_05.jpeg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="d-none align-items-center content__item">
+                      Bột chiên Đạt Thành <a href="#"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single__place">
+                  <div class="thumb thumb__item">
+                    <img class="place__img" src="./images/dish_06.jpg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="d-none align-items-center content__item">
+                      Bún thịt nướng Kiều Bảo <a href="#"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="container">
+        <div class="footer">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 mx-auto col-xl-3 mt-3 footer__item">
+              <img style="margin-top: -20px; text-align: center" src="./images/logo.jpg" alt="" />
+
+              <p class="foot__add">
+                Hân hạn được phục vụ và mang đến cho quý khách những dịch vụ tốt nhất !
+              </p>
+              <div class="social">
+                <a href="" class="social__link">
+                  <i class="social__icon fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="" class="social__link">
+                  <i class="social__icon fa-brands fa-instagram"></i>
+                </a>
+                <a href="" class="social__link">
+                  <i class="social__icon fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="" class="social__link">
+                  <i class="social__icon fa-brands fa-github-alt"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 mx-auto col-xl-3 mt-3 footer__item">
+              <h3 class="footer__heading text-center mb-5">Ảnh</h3>
+              <div class="row footer__img__wrapper">
+                <div class="col-lg-4 col-md-6">
+                  <img class="footer__img" src="./images/slider_001.jpg" alt="" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <img class="footer__img" src="./images/slider_002.jpg" alt="" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <img class="footer__img" src="./images/slider_003.jpg" alt="" />
+                </div>
+              </div>
+              <div class="row footer__img__wrapper">
+                <div class="col-lg-4 col-md-6">
+                  <img class="footer__img" src="./images/dish_01.jpg" alt="" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <img class="footer__img" src="./images/dish_02.jpg" alt="" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <img class="footer__img" src="./images/dish_03.webp" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 mx-auto col-xl-3 mt-3 footer__item">
+              <h3 class="footer__heading text-center mb-5">Địa Chỉ</h3>
+              <ul class="footer__address">
+                <li class="address__info">
+                  <i class="address__icon fa-solid fa-house-chimney"></i>
+                  <p class="foot__add">Củ chi, TP.HCM, Việt Nam</p>
+                </li>
+                <li class="address__info">
+                  <i class="address__icon fa-solid fa-phone"></i>
+                  <a href="tel:0336060245" class="address__link">033.6060.245</a>
+                </li>
+                <li class="address__info">
+                  <i class="address__icon fa-solid fa-envelope"></i>
+                  <a href="mailto:manhcuong2132@gmail.com" class="address__link">
+                    manhcuong2132@gmail.com
+                  </a>
+                </li>
+                <li class="address__info">
+                  <i class="address__icon fa-solid fa-globe"></i>
+                  <a href="#" class="address__link">mywebsite.com</a>
+                </li>
+              </ul>
+            </div>
+            <hr class="mt-5" />
+          </div>
+
+          <div class="copy-right_text">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-12">
+                  <p class="copy_right text-center">
+                    Copyright &copy;
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved | This template is made with
+                    <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                    <a class="footer__link" href="https://colorlib.com" target="_blank">
+                      <span class="author__name"> M A N H C U O N G </span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

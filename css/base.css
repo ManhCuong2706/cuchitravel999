@@ -1,0 +1,16 @@
+:root {
+  --primary-color: rgb(16, 34, 46);
+  --hover-color: rgb(255, 74, 82);
+  --text-color: #fff;
+  --background-color: rgba(255, 74, 82, 0.1);
+}
+* {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Lobster', cursive;
+  font-family: 'Roboto Mono', monospace;
+  box-sizing: border-box;
+}
