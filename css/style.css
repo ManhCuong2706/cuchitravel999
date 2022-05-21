@@ -150,7 +150,6 @@
 .address__info {
   display: flex;
   list-style: none;
-  /* position: relative; */
   left: 60px;
   justify-items: center;
   line-height: 1.6rem;
