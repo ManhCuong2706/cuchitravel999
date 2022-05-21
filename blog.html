@@ -1,348 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      s
+    />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <title>Cu Chi Travel</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" s />
-  <link rel="stylesheet" href="./css/base.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-  <title>Cu Chi Travel</title>
-</head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="navbar navbar-expand-lg bg-light header__navbar">
+          <div class="container">
+            <a class="navbar-brand header__link" href="#">
+              <img class="header__logo" src="./images/logo.jpg" alt="home" />
+            </a>
 
-<body>
-  <div class="container">
-    <header class="header">
-      <nav class="navbar navbar-expand-lg bg-light header__navbar ">
-        <div class="container">
-          <a class="navbar-brand header__link" href="#">
-            <img class="header__logo" src="./images/logo.jpg" alt="home" />
-          </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse header__menu" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item menu__item">
-                <a class="nav-link  menu__link" aria-current="page" href="./index.html">Trang chủ</a>
-              </li>
-              <li class="nav-item menu__item">
-                <a class="nav-link menu__link" aria-current="page" href="./about.html">Giới thiệu</a>
-              </li>
-              <li class="nav-item menu__item">
-                <a class="nav-link menu__link" aria-current="page" href="./places.html">Địa Điểm</a>
-              </li>
-              <li class="nav-item menu__item">
-                <a class="nav-link menu__link active" href="./blog.html" aria-current="page" href="#">
-                  Blog
-                </a>
-              </li>
-              <li class="nav-item menu__item">
-                <a class="nav-link menu__link" aria-current="page" href="./contact.html">Liên hệ</a>
-              </li>
-            </ul>
-          </div>
-          <div class="header__social"></div>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-
-      <div id="carouselExampleCaptions" class="carousel slide header__slider" data-bs-ride="false">
-        <div class="carousel-inner">
-          <div class="carousel-item slide-item active slide-item">
-            <img src="./images/blog_01.avif" class="d-block w-100 slide__img" alt="Slider_01" />
-
-          </div>
-        </div>
-      </div>
-    </header>
-
-  </div>
-  <!-- Body -->
-  <div class="container">
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-            aria-controls="panelsStayOpen-collapseOne">
-
-            <h1>
-              Sài Gòn chút yêu thương trong tôi
-            </h1>
-
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-          aria-labelledby="panelsStayOpen-headingOne">
-          <div class="accordion-body">
-            <p>Sài Gòn đón nhận vào lòng thành phố những đứa con từ khắp phương xa đất nước về đây học tập,
-              làm việc, sinh sống. Sự ồn ã, cảnh đường xe tấp nập, cảnh xuyên tắc đường thường làm những người mới đến
-              cảm thấy ngột ngạt,
-              bức bối. Khi dần quen với thành phố người ta có thể thoải mái đi trên những con đường đông đúc người xe,
-              theo từng dòng xe qua những ngã ba, ngã tư , rồi rẽ vào đâu đó trong những hẻm nhỏ. Đường Sài Gòn nhiều
-              ngã rẽ,
-              như chính những ngã rẻ của duyên số đã đưa người ta đến nơi đây. Cũng tự bao giờ ai đó xa lạ trở nên yêu
-              si mê nơi này,
-              thân quen như chính tâm hồn mình, yêu Sài Gòn mỗi sớm mai cùng bạn bè café sáng, không quan trọng là café,
-              đơn giản chỉ là cái cớ để tụ tập cùng trò chuyện. Là cảm giác thích thú ngắm thành phố thức dậy, rạng rỡ,
-              vươn mình trong nắng mai đầy kiêu hãnh. Là mỗi chiều về, rủ nhau hàng quán ven đường với những món ăn bình
-              dân,
-              là rôm rả những câu chuyện đầy màu sắc.</p>
-            <div>
-
-              <img src="./images/can-gio.jpg" alt="">
+            <div class="collapse navbar-collapse header__menu" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item menu__item">
+                  <a class="nav-link menu__link" aria-current="page" href="./index.html"
+                    >Trang chủ</a
+                  >
+                </li>
+                <li class="nav-item menu__item">
+                  <a class="nav-link menu__link" aria-current="page" href="./about.html"
+                    >Giới thiệu</a
+                  >
+                </li>
+                <li class="nav-item menu__item">
+                  <a class="nav-link menu__link" aria-current="page" href="./places.html"
+                    >Địa Điểm</a
+                  >
+                </li>
+                <li class="nav-item menu__item">
+                  <a
+                    class="nav-link menu__link active"
+                    href="./blog.html"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li class="nav-item menu__item">
+                  <a class="nav-link menu__link" aria-current="page" href="./contact.html"
+                    >Liên hệ</a
+                  >
+                </li>
+              </ul>
             </div>
-            <p>
-              Sài Gòn làm ấm lòng những người phương xa bằng những cách gọi gần gũi,
-              những người lớn tuổi gặp bất kỳ thanh niên nào cũng gọi “con”, xưng “dì” hay “ngoại”, cách xưng hô như con
-              cháu trong nhà.
-              Như đi xa mà tìm được về nhà, người Sài Gòn có cái chân tình dễ thương , họ luôn sẵn sàng giúp đỡ những
-              người xa lạ,
-              chỉ cần đáp lại bằng một nụ cười thân thiện.
-            </p>
+            <div class="header__social"></div>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide header__slider"
+          data-bs-ride="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item slide-item active slide-item">
+              <img src="./images/blog_01.avif" class="d-block w-100 slide__img" alt="Slider_01" />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseTwo">
-            <h1>Có những ngày Sài Gòn như thế…</h1>
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingTwo">
-          <div class="accordion-body">
-            <p>
-              Những ngày này, Sài Gòn như ngược dòng thời gian trở về giai đoạn nào đó xa xưa lắm. Đường phố vắng lặng.
-              Chợ đóng cửa. Thực phẩm phải xếp hàng mua… Nhà nhà cửa đóng then cài. Câu chuyện trao đổi cùng nhau chỉ
-              xoay quanh những tin tức bất an.
-            </p>
-            <p>
-
-              Người ta gọi giai đoạn này của Sài Gòn bằng nhiều cái tên: Sài Gòn phong thành, Sài Gòn ốm, Sài Gòn bệnh
-              rồi… Một bầu không khí tĩnh lặng bên ngoài
-              che đậy những cuồn cuộn lo âu, xáo trộn bên trong. Chưa bao giờ chứng kiến Sài Gòn như thế. Chắc lịch sử
-              sẽ không quên ghi lại giai đoạn đặc biệt này của Sài Gòn.
-              Mong rằng đây chỉ là một đoạn ngắn ủ ê để rồi Sài Gòn gượng dậy vươn vai khoẻ mạnh bước tiếp.
-
-            </p>
-            <img src="./images/blog_02.jpeg" alt="">
-            <p>
-
-              Trong những ngày này, người ta than thở với nhau về thực phẩm khan hiếm, trăn trở cùng nhau về những con
-              số nhảy múa không ngừng,
-              thót tim hồi hộp khi nghe tiếng còi hụ cứu thương… Những trắc ẩn, ngậm ngùi cũng dành cho những mảnh đời
-              mưu sinh vạ vật – biết cầm
-              cự ra sao giữa những ngày Sài Gòn đang ốm.
-            </p>
-            <p>
-
-              Những cảm phục, biết ơn cho bao người tuyến đầu chống dịch. Những bồi hồi cảm xúc trước bao tấm lòng từ
-              khắp nơi đổ về xoa dịu
-              Sài Gòn quên vội thoáng chốc cơn đau…
-            </p>
-            <p>
-              Sài Gòn như đang trong thời chiến. Nơi người ta chỉ biết động viên nhau cùng cố gắng. Nơi người thân trong
-              gia đình giờ cách
-              trở ngăn sông chỉ biết gọi cho nhau ủi an nhau giữa mùa dịch. Nơi những “hậu phương” xa xôi tiếp tế cho
-              “tiền tuyến”. Nơi những
-              “chiến sĩ” trên khắp mặt trận đang cố gắng ngày đêm. Nơi mỗi gia đình khoẻ mạnh là một hạt nhân góp phần
-              làm nên chiến thắng.
-
-            </p>
-            <p>
-
-              Yêu lắm Sài Gòn và mong lắm, nơi này sẽ mau chóng vươn vai hồi sinh như trước.
-            </p>
-            <p>
-
-              Những ngày này, lại tự nhắc mình hãy thật cẩn trọng, thật bình tĩnh và thật mạnh mẽ để động viên nhau.
-              San sẻ, nâng đỡ cùng nhau và tin tưởng rằng rồi Sài Gòn sẽ lại bình an bước tiếp. Lúc ấy, nhìn lại sẽ thấy
-              Sài Gòn thật kiên cường vì đã từng bước qua những ngày như thế…
-            </p>
-            <p>
-
-
-              – Một chút xúc động cá nhân ghi chép lại những ngày Sài Gòn mệt –
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseThree">
-            <h1>Cà phê bệt</h1>
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingThree">
-          <div class="accordion-body">
-            <p>Ai đến Sài Gòn, dù là lần đầu tiên đều nhận ra đồ uống đặc trưng nơi đây đó chính là cà phê bệt.
-              Dường như nó đã trở thành một nét văn hóa riêng cho vùng đất tứ xứ này</p>
-            <img src="./images/blog_03.jpg" alt="">
-            <p>
-              Chỉ cần 1 tờ giấy báo, một ly cà phê nhỏ là đủ để mọi người ngồi nói chuyện với nhau. Đôi khi chỉ cần ngồi
-              lên những viên gạch ven đường hay thảm cỏ xanh công viên, uống với nhau ly cà phê đen vị đắng cũng gọi là
-              cà phê bệt.
-              Người đến, kẻ đi ai rồi cũng nhớ những lần hẹn hò với nhau bằng thứ thức uống đơn sơ mà dân dã ấy.
-            </p>
-            <img src="./images/blog_04.jpg" alt="">
-            <p>
-              Sài Gòn, có những lúc bình dị và thân thương đến thế!
-            </p>
-            <p>
-
-              Sài Gòn, chưa xa mà đã nhớ.
-            </p>
-            <p>
-              Nếu bạn có ý định du lịch Sài Gòn, bên cạnh việc tham quan những địa điểm nổi tiếng trong thành phố thì
-              nhớ thử khám phá những
-              góc bình yên như thế này nhé. Tin chắc rằng bạn sẽ có những trải nghiệm thú vị và đáng nhớ về mảnh đất
-              này.
-            </p>
-          </div>
-        </div>
-      </div>
+      </header>
     </div>
-  </div>
-
-  <!-- Footer -->
-  <div class="container">
-    <div class="footer">
-      <div class="row">
-        <div class="col-lg-3 col-md-3 mx-auto col-xl-3 mt-3 footer__item">
-          <img style="margin-top: -20px; text-align: center" src="./images/logo.jpg" alt="" />
-
-          <p class="foot__add">
-            Hân hạn được phục vụ và mang đến cho quý khách những dịch vụ tốt nhất !
-          </p>
-          <div class="social">
-            <a href="" class="social__link">
-              <i class="social__icon fa-brands fa-facebook-f"></i>
-            </a>
-            <a href="" class="social__link">
-              <i class="social__icon fa-brands fa-instagram"></i>
-            </a>
-            <a href="" class="social__link">
-              <i class="social__icon fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="" class="social__link">
-              <i class="social__icon fa-brands fa-github-alt"></i>
-            </a>
+    <!-- Body -->
+    <div class="container blog__content">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item blog__content-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              <h1>Sài Gòn chút yêu thương trong tôi</h1>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne"
+          >
+            <div class="accordion-body">
+              <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-6 col-xs-6">
+                  <p class="blog__text">
+                    Sài Gòn đón nhận vào lòng thành phố những đứa con từ khắp phương xa đất nước về
+                    đây học tập, làm việc, sinh sống. Sự ồn ã, cảnh đường xe tấp nập, cảnh xuyên tắc
+                    đường thường làm những người mới đến cảm thấy ngột ngạt, bức bối. Khi dần quen
+                    với thành phố người ta có thể thoải mái đi trên những con đường đông đúc người
+                    xe, theo từng dòng xe qua những ngã ba, ngã tư , rồi rẽ vào đâu đó trong những
+                    hẻm nhỏ. Đường Sài Gòn nhiều ngã rẽ, như chính những ngã rẻ của duyên số đã đưa
+                    người ta đến nơi đây. Cũng tự bao giờ ai đó xa lạ trở nên yêu si mê nơi này,
+                    thân quen như chính tâm hồn mình, yêu Sài Gòn mỗi sớm mai cùng bạn bè café sáng,
+                    không quan trọng là café, đơn giản chỉ là cái cớ để tụ tập cùng trò chuyện. Là
+                    cảm giác thích thú ngắm thành phố thức dậy, rạng rỡ, vươn mình trong nắng mai
+                    đầy kiêu hãnh. Là mỗi chiều về, rủ nhau hàng quán ven đường với những món ăn
+                    bình dân, là rôm rả những câu chuyện đầy màu sắc.
+                  </p>
+                  <div>
+                    <div class="bog__img-wrap">
+                      <img class="blog__img-item" src="./images/can-gio.jpg" alt="" />
+                    </div>
+                  </div>
+                  <p class="blog__text">
+                    Sài Gòn làm ấm lòng những người phương xa bằng những cách gọi gần gũi, những
+                    người lớn tuổi gặp bất kỳ thanh niên nào cũng gọi “con”, xưng “dì” hay “ngoại”,
+                    cách xưng hô như con cháu trong nhà. Như đi xa mà tìm được về nhà, người Sài Gòn
+                    có cái chân tình dễ thương , họ luôn sẵn sàng giúp đỡ những người xa lạ, chỉ cần
+                    đáp lại bằng một nụ cười thân thiện.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="accordion-item blog__content-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              <h1>Có những ngày Sài Gòn như thế…</h1>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo"
+          >
+            <div class="accordion-body">
+              <p class="blog__text">
+                Những ngày này, Sài Gòn như ngược dòng thời gian trở về giai đoạn nào đó xa xưa lắm.
+                Đường phố vắng lặng. Chợ đóng cửa. Thực phẩm phải xếp hàng mua… Nhà nhà cửa đóng
+                then cài. Câu chuyện trao đổi cùng nhau chỉ xoay quanh những tin tức bất an.
+              </p>
+              <p class="blog__text">
+                Người ta gọi giai đoạn này của Sài Gòn bằng nhiều cái tên: Sài Gòn phong thành, Sài
+                Gòn ốm, Sài Gòn bệnh rồi… Một bầu không khí tĩnh lặng bên ngoài che đậy những cuồn
+                cuộn lo âu, xáo trộn bên trong. Chưa bao giờ chứng kiến Sài Gòn như thế. Chắc lịch
+                sử sẽ không quên ghi lại giai đoạn đặc biệt này của Sài Gòn. Mong rằng đây chỉ là
+                một đoạn ngắn ủ ê để rồi Sài Gòn gượng dậy vươn vai khoẻ mạnh bước tiếp.
+              </p>
+              <div class="bog__img-wrap">
+                <img class="blog__img-item" src="./images/blog_02.jpeg" alt="" />
+              </div>
 
-        <div class="col-lg-3 col-md-3 mx-auto col-xl-3 mt-3 footer__item">
-          <h3 class="footer__heading text-center mb-5">Ảnh</h3>
-          <div class="row footer__img__wrapper">
-            <div class="col-lg-4 col-md-6">
-              <img class="footer__img" src="./images/slider_001.jpg" alt="" />
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <img class="footer__img" src="./images/slider_002.jpg" alt="" />
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <img class="footer__img" src="./images/slider_003.jpg" alt="" />
-            </div>
-          </div>
-          <div class="row footer__img__wrapper">
-            <div class="col-lg-4 col-md-6">
-              <img class="footer__img" src="./images/dish_01.jpg" alt="" />
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <img class="footer__img" src="./images/dish_02.jpg" alt="" />
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <img class="footer__img" src="./images/dish_03.webp" alt="" />
+              <p class="blog__text">
+                Trong những ngày này, người ta than thở với nhau về thực phẩm khan hiếm, trăn trở
+                cùng nhau về những con số nhảy múa không ngừng, thót tim hồi hộp khi nghe tiếng còi
+                hụ cứu thương… Những trắc ẩn, ngậm ngùi cũng dành cho những mảnh đời mưu sinh vạ vật
+                – biết cầm cự ra sao giữa những ngày Sài Gòn đang ốm.
+              </p>
+              <p class="blog__text">
+                Những cảm phục, biết ơn cho bao người tuyến đầu chống dịch. Những bồi hồi cảm xúc
+                trước bao tấm lòng từ khắp nơi đổ về xoa dịu Sài Gòn quên vội thoáng chốc cơn đau…
+              </p>
+              <p class="blog__text">
+                Sài Gòn như đang trong thời chiến. Nơi người ta chỉ biết động viên nhau cùng cố
+                gắng. Nơi người thân trong gia đình giờ cách trở ngăn sông chỉ biết gọi cho nhau ủi
+                an nhau giữa mùa dịch. Nơi những “hậu phương” xa xôi tiếp tế cho “tiền tuyến”. Nơi
+                những “chiến sĩ” trên khắp mặt trận đang cố gắng ngày đêm. Nơi mỗi gia đình khoẻ
+                mạnh là một hạt nhân góp phần làm nên chiến thắng.
+              </p>
+              <p class="blog__text">
+                Yêu lắm Sài Gòn và mong lắm, nơi này sẽ mau chóng vươn vai hồi sinh như trước.
+              </p>
+              <p class="blog__text">
+                Những ngày này, lại tự nhắc mình hãy thật cẩn trọng, thật bình tĩnh và thật mạnh mẽ
+                để động viên nhau. San sẻ, nâng đỡ cùng nhau và tin tưởng rằng rồi Sài Gòn sẽ lại
+                bình an bước tiếp. Lúc ấy, nhìn lại sẽ thấy Sài Gòn thật kiên cường vì đã từng bước
+                qua những ngày như thế…
+              </p>
+              <p class="blog__text">
+                – Một chút xúc động cá nhân ghi chép lại những ngày Sài Gòn mệt –
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-3 mx-auto col-xl-3 mt-3 footer__item">
-          <h3 class="footer__heading text-center mb-5">Địa Chỉ</h3>
-          <ul class="footer__address">
-            <li class="address__info">
-              <i class="address__icon fa-solid fa-house-chimney"></i>
-              <p class="foot__add">Củ chi, TP.HCM, Việt Nam</p>
-            </li>
-            <li class="address__info">
-              <i class="address__icon fa-solid fa-phone"></i>
-              <a href="tel:0336060245" class="address__link">033.6060.245</a>
-            </li>
-            <li class="address__info">
-              <i class="address__icon fa-solid fa-envelope"></i>
-              <a href="mailto:manhcuong2132@gmail.com" class="address__link">
-                manhcuong2132@gmail.com
-              </a>
-            </li>
-            <li class="address__info">
-              <i class="address__icon fa-solid fa-globe"></i>
-              <a target="_blank" href="https://manhcuong2706.github.io/cuchitravel999"
-                class="address__link">cuchitravel999.com</a>
-            </li>
-          </ul>
-        </div>
-        <hr class="mt-5" />
-      </div>
+        <div class="accordion-item blog__content-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              <h1>Cà phê bệt</h1>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree"
+          >
+            <div class="accordion-body">
+              <p class="blog__text">
+                Ai đến Sài Gòn, dù là lần đầu tiên đều nhận ra đồ uống đặc trưng nơi đây đó chính là
+                cà phê bệt. Dường như nó đã trở thành một nét văn hóa riêng cho vùng đất tứ xứ này
+              </p>
+              <div class="bog__img-wrap">
+                <img class="blog__img-item" src="./images/blog_03.jpg" alt="" />
+              </div>
 
-      <div class="copy-right_text">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <p class="copy_right text-center">
-                Copyright &copy;
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-                All rights reserved | This template is made with
-                <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                <a class="footer__link" href="https://colorlib.com" target="_blank">
-                  <span class="author__name"> M A N H C U O N G </span>
-                </a>
+              <p class="blog__text">
+                Chỉ cần 1 tờ giấy báo, một ly cà phê nhỏ là đủ để mọi người ngồi nói chuyện với
+                nhau. Đôi khi chỉ cần ngồi lên những viên gạch ven đường hay thảm cỏ xanh công viên,
+                uống với nhau ly cà phê đen vị đắng cũng gọi là cà phê bệt. Người đến, kẻ đi ai rồi
+                cũng nhớ những lần hẹn hò với nhau bằng thứ thức uống đơn sơ mà dân dã ấy.
+              </p>
+              <div class="bog__img-wrap">
+                <img class="blog__img-item" src="./images/blog_04.jpg" alt="" />
+              </div>
+              <p class="blog__text">Sài Gòn, có những lúc bình dị và thân thương đến thế!</p>
+              <p class="blog__text">Sài Gòn, chưa xa mà đã nhớ.</p>
+              <p class="blog__text">
+                Nếu bạn có ý định du lịch Sài Gòn, bên cạnh việc tham quan những địa điểm nổi tiếng
+                trong thành phố thì nhớ thử khám phá những góc bình yên như thế này nhé. Tin chắc
+                rằng bạn sẽ có những trải nghiệm thú vị và đáng nhớ về mảnh đất này.
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
 
+    <!-- Footer -->
+    <div class="container">
+      <div class="footer">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 mx-auto col-xl-3 mt-3 footer__item">
+            <img style="margin-top: -20px; text-align: center" src="./images/logo.jpg" alt="" />
+
+            <p class="foot__add">
+              Hân hạnh được phục vụ quý khách ! Chúng tôi cam kết sẽ mang đến cho quý khách những
+              trải nghiệm và dịch vụ tốt nhất
+            </p>
+
+            <div class="social">
+              <a href="" class="social__link">
+                <i class="social__icon fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="" class="social__link">
+                <i class="social__icon fa-brands fa-instagram"></i>
+              </a>
+              <a href="" class="social__link">
+                <i class="social__icon fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="" class="social__link">
+                <i class="social__icon fa-brands fa-github-alt"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 mx-auto col-xl-3 mt-3 footer__item">
+            <h3 class="footer__heading text-center mb-5">Ảnh</h3>
+            <div class="row footer__img__wrapper">
+              <div class="col-lg-4 col-md-6">
+                <img class="footer__img" src="./images/slider_001.jpg" alt="" />
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <img class="footer__img" src="./images/slider_002.jpg" alt="" />
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <img class="footer__img" src="./images/slider_003.jpg" alt="" />
+              </div>
+            </div>
+            <div class="row footer__img__wrapper">
+              <div class="col-lg-4 col-md-6">
+                <img class="footer__img" src="./images/dish_01.jpg" alt="" />
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <img class="footer__img" src="./images/dish_02.jpg" alt="" />
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <img class="footer__img" src="./images/dish_03.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 mx-auto col-xl-3 mt-3 footer__item">
+            <h3 class="footer__heading text-center mb-5">Địa Chỉ</h3>
+            <ul class="footer__address">
+              <li class="address__info">
+                <i class="address__icon fa-solid fa-house-chimney"></i>
+                <p class="foot__add">Củ chi, TP.HCM, Việt Nam</p>
+              </li>
+              <li class="address__info">
+                <i class="address__icon fa-solid fa-phone"></i>
+                <a href="tel:0336060245" class="address__link">033.6060.245</a>
+              </li>
+              <li class="address__info">
+                <i class="address__icon fa-solid fa-envelope"></i>
+                <a href="mailto:manhcuong2132@gmail.com" class="address__link">
+                  manhcuong2132@gmail.com
+                </a>
+              </li>
+              <li class="address__info">
+                <i class="address__icon fa-solid fa-globe"></i>
+                <a
+                  target="_blank"
+                  href="https://manhcuong2706.github.io/cuchitravel999"
+                  class="address__link"
+                  >cuchitravel999.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <hr class="mt-5" />
+        </div>
+
+        <div class="copy-right_text">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-12">
+                <p class="copy_right text-center">
+                  Copyright &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  All rights reserved | This template is made with
+                  <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                  <a class="footer__link" href="https://colorlib.com" target="_blank">
+                    <span class="author__name"> M A N H C U O N G </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

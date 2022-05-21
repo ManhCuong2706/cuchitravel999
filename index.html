@@ -54,30 +54,28 @@
     <title>Cu Chi Travel</title>
   </head>
   <body>
-    <div class="container-fluid body__background">
+    <div class="body__background">
       <!-- header -->
-      <div class="container">
+      <div class="container body__background">
         <header class="header">
-          <nav class="navbar navbar-expand-lg bg-light header__navbar sticky-top">
-            <div class="container">
-              <a class="navbar-brand header__link" href="#">
+          <nav class="navbar navbar-expand-lg header__navbar sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
                 <img class="header__logo" src="./images/logo.jpg" alt="home" />
               </a>
-
               <button
-                class="navbar-toggler"
+                class="navbar-toggler header__btn"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars header__btn"></i>
               </button>
-
-              <div class="collapse navbar-collapse header__menu" id="navbarNav">
-                <ul class="navbar-nav">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item menu__item">
                     <a class="nav-link active menu__link" aria-current="page" href="./index.html"
                       >Trang chủ</a
@@ -104,19 +102,19 @@
                     >
                   </li>
                 </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
               </div>
-              <div class="header__social"></div>
-              <form class="d-none" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
             </div>
           </nav>
+
           <div
             id="carouselExampleCaptions"
             class="carousel slide header__slider"
@@ -416,7 +414,8 @@
               <img style="margin-top: -20px; text-align: center" src="./images/logo.jpg" alt="" />
 
               <p class="foot__add">
-                Hân hạn được phục vụ và mang đến cho quý khách những dịch vụ tốt nhất !
+                Hân hạnh được phục vụ quý khách ! Chúng tôi cam kết sẽ mang đến cho quý khách những
+                trải nghiệm và dịch vụ tốt nhất
               </p>
               <div class="social">
                 <a href="" class="social__link">
@@ -437,24 +436,24 @@
             <div class="col-lg-3 col-md-3 mx-auto col-xl-3 mt-3 footer__item">
               <h3 class="footer__heading text-center mb-5">Ảnh</h3>
               <div class="row footer__img__wrapper">
-                <div class="col-lg-4 col-md-6 col-xs-6 ">
+                <div class="col-lg-4 col-md-12 col-xs-12">
                   <img class="footer__img" src="./images/slider_001.jpg" alt="" />
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-6">
+                <div class="col-lg-4 col-md-12 col-xs-12">
                   <img class="footer__img" src="./images/slider_002.jpg" alt="" />
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-6">
+                <div class="col-lg-4 col-md-12 col-xs-12">
                   <img class="footer__img" src="./images/slider_003.jpg" alt="" />
                 </div>
               </div>
               <div class="row footer__img__wrapper">
-                <div class="col-lg-4 col-md-6 col-xs-6">
+                <div class="col-lg-4 col-md-12 col-xs-12">
                   <img class="footer__img" src="./images/dish_01.jpg" alt="" />
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-6">
+                <div class="col-lg-4 col-md-12 col-xs-12">
                   <img class="footer__img" src="./images/dish_02.jpg" alt="" />
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-6">
+                <div class="col-lg-4 col-md-12 col-xs-12">
                   <img class="footer__img" src="./images/dish_03.webp" alt="" />
                 </div>
               </div>
@@ -478,7 +477,12 @@
                 </li>
                 <li class="address__info">
                   <i class="address__icon fa-solid fa-globe"></i>
-                  <a target="_blank" href="https://manhcuong2706.github.io/cuchitravel999" class="address__link">cuchitravel999.com</a>
+                  <a
+                    target="_blank"
+                    href="https://manhcuong2706.github.io/cuchitravel999"
+                    class="address__link"
+                    >cuchitravel999.com</a
+                  >
                 </li>
               </ul>
             </div>
